@@ -1,4 +1,4 @@
-﻿string especie, cor, nome, raca;
+﻿﻿string especie, cor, nome, raca;
 double idade;
 
 Console.WriteLine("Qual a espécie do seu pet?");
@@ -17,8 +17,8 @@ Console.Clear();
 Console.WriteLine("+=========================================================+");
 Console.WriteLine("|                 Pet Hotel 'Nem um Pio'                  |");
 Console.WriteLine("+=========================================================+");
-Console.WriteLine($"| Espécie:......{especie}    |    Raça:......{raca}         |");
+Console.WriteLine($"| Espécie:......{especie.ToUpper()}    |    Raça:......{raca.ToUpper()}         |");
 Console.WriteLine("+=========================================================+");
-Console.WriteLine($"| Atende pela alcunha de:..................{nome}         |");
-Console.WriteLine($"| Idade:{idade} ano(s)       |    Pelagem/cor:....{cor}      |");
+Console.WriteLine($"| Atende pela alcunha de:..................{nome.ToUpper()}         |");
+Console.WriteLine($"| Idade:{idade} ano(s)       |    Pelagem/cor:....{cor.ToUpper()}      |");
 Console.WriteLine("+=========================================================+");
